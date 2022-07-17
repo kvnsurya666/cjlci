@@ -1,0 +1,27 @@
+.footer_agileinfo_w3 {
+  padding: 4em 0;
+  background-color: #0dcaf0;
+}
+
+.footer_inner_info_w3ls_agileits {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.shop-button a {
+  background: #000;
+  color: #fff;
+  padding: 0.6em 1em;
+  font-size: 0.9em;
+  letter-spacing: 1px;
+}
+
+.shop-button a:hover,
+.shop-button.two a:hover {
+  background: #0dcaf0;
+  color: #ffffff;
+}
+
+.shop-button.two a {
+  background: #000000;
+}
