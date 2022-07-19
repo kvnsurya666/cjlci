@@ -19,7 +19,7 @@ class Pages extends BaseController
 			'title' => 'Tentang Kami'
 		];
 
-       return view('pages/tentangkami', $data);
+       echo view('pages/tentangkami', $data);
     }
 
     public function mesin()
@@ -28,7 +28,7 @@ class Pages extends BaseController
 			'title' => 'Katalog Mesin'
 		];
 
-       return view('pages/mesin', $data);
+       echo view('pages/mesin', $data);
     }
 
     public function oli()
@@ -37,7 +37,7 @@ class Pages extends BaseController
 			'title' => 'Katalog Oli'
 		];
 
-       return view('pages/oli', $data);
+       echo view('pages/oli', $data);
     }
 
     public function aksesoris()
@@ -46,7 +46,7 @@ class Pages extends BaseController
 			'title' => 'Katalog Aksesoris'
 		];
 
-       return view('pages/aksesoris', $data);
+       echo view('pages/aksesoris', $data);
     }
 
     public function jasa()
@@ -55,6 +55,6 @@ class Pages extends BaseController
 			'title' => 'Katalog Jasa'
 		];
 
-       return view('pages/jasa', $data);
+       echo view('pages/jasa', $data);
     }
 }
