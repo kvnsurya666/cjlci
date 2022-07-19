@@ -10,7 +10,7 @@ class Pages extends BaseController
 			'title' => 'Home | Cipta Jaya Lestari'
 		];
 
-       echo view('pages/home', $data);
+       return view('pages/home', $data);
     }
 
     public function katalog()
