@@ -3,7 +3,7 @@
         <div class="row">
           <div class="col-md-1">
             <a class="navbar-brand" href="#" style="padding-top: 10px; padding-bottom: 10px">
-              <img src="/public/img/logo ciptajayalestari.PNG" alt="" width="100" height="50" />
+              <img src="public/img/logo ciptajayalestari.PNG" alt="" width="100" height="50" />
             </a>
           </div>
 
@@ -13,7 +13,7 @@
                 <a class="nav-link active" href="#">Home</a>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="/views/katalog/produk.php" role="button" aria-expanded="false">Katalog</a>
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Katalog</a>
                 <ul class="dropdown-menu">
                   <li><a class="dropdown-item" href="">Mesin</a></li>
                   <li><a class="dropdown-item" href="">Oli</a></li>
