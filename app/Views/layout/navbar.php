@@ -22,7 +22,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="<?= $base_url('/pages/tentangkami'); ?>">Tentang Kami</a>
+                <a class="nav-link" href="<?= base_url('/pages/tentangkami'); ?>">Tentang Kami</a>
               </li>
             </ul>
           </div>
