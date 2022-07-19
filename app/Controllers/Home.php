@@ -10,6 +10,6 @@ class Home extends BaseController
 			'title' => 'CIPTA JAYA LESTARI'
 		];
 
-       return view('home/index', $data);
+       return view('layout/template', $data);
     }
 }
