@@ -5,13 +5,13 @@
       <div id="carouselSlide" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="public/img/slider1.jpg" class="d-block w-100" alt="Gambar 1" />
+            <img src="<?= $base_url('/public/img/slider1.jpg'); ?>" class="d-block w-100" alt="Gambar 1" />
           </div>
           <div class="carousel-item">
-            <img src="public/img/slider2.jpg" class="d-block w-100" alt="Gambar 2" />
+            <img src="<?= $base_url('/public/img/slider2.jpg'); ?>" class="d-block w-100" alt="Gambar 2" />
           </div>
           <div class="carousel-item">
-            <img src="public/img/slider3.jpg" class="d-block w-100" alt="Gambar 3" />
+            <img src="<?= $base_url('/public/img/slider2.jpg'); ?>" class="d-block w-100" alt="Gambar 3" />
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselSlide" data-bs-slide="prev">
@@ -28,7 +28,7 @@
 <section class="showcase">
       <div class="container-fluid p-0">
         <div class="row g-0">
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('public/img/machine.jpg')"></div>
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="<?= $base_url('/public/img/machine.jpg'); ?>"></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
             <h3>Machinery</h3>
             <p>Ingin cari macam - macam mesin?</p>
