@@ -32,7 +32,7 @@
           <div class="col-md-3 footer-left">
             <h2>
               <a href="index.html">
-                <img src="<?= $base_url('/public/img/logo ciptajayalestari.PNG'); ?>" style="margin-top: -10px" width="100px" />
+                <img src="<?= base_url('/public/img/logo ciptajayalestari.PNG'); ?>" style="margin-top: -10px" width="100px" />
               </a>
             </h2>
             <p><b>Metal working and machinery</b></p>
