@@ -7,7 +7,7 @@ class Pages extends BaseController
     public function index()
     {
 		$data = [
-			'title' => 'Home | Cipta Jaya Lestari'
+			'title' => 'CIPTA JAYA LESTARI'
 		];
 
        return view('pages/home', $data);
@@ -19,6 +19,15 @@ class Pages extends BaseController
 			'title' => 'Katalog Produk'
 		];
 
-       echo view('pages/katalog', $data);
+       return view('pages/katalog', $data);
+    }
+
+    public function tentangkami()
+    {
+		$data = [
+			'title' => 'Tentang Kami'
+		];
+
+       return view('pages/tentangkami', $data);
     }
 }
