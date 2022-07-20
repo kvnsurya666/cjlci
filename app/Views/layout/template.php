@@ -31,7 +31,7 @@
         <div class="row">
           <div class="col-md-3 footer-left">
             <h2>
-              <a href="<?= base_url('/'); ?>">
+              <a href="/">
                 <img src="/img/logo ciptajayalestari.PNG" style="margin-top: -10px" width="100px" />
               </a>
             </h2>
