@@ -29,7 +29,7 @@
   <div class="footer_agileinfo_w3">
       <div class="footer_inner_info_w3ls_agileits">
         <div class="row">
-          <div class="col-md-3 footer-left">
+          <div class="col-md-4 footer-left">
             <h2>
               <a href="/">
                 <img src="/img/logo ciptajayalestari.PNG" style="margin-top: -10px" width="100px" />
@@ -37,7 +37,7 @@
             </h2>
             <p><b>Metal working and machinery</b></p>
           </div>
-          <div class="col-md-9 footer-right">
+          <div class="col-md-4 footer-center">
             <div class="sign-grds">
               <div class="col-md-5 sign-gd-one">
                 <h4>Hubungi <span>Kami</span> </h4>
@@ -64,8 +64,10 @@
                   </div>
                 </div>
               </div>
-              <!-- WhatsApp -->
-              <div class="col-md-5 sign-gd-two emailprofile cta-footer text-center" id="wa_company" data-wa="6281335700084;6281330066919;628123170863;6281254693810;6281331637497;085232777499" data-company="//www.ciptajayalestari.com" data-member="2">
+            </div>
+          </div>
+          <!-- WhatsApp -->
+                <div class="col-md-4 sign-gd-two emailprofile cta-footer text-center footer-right" id="wa_company" data-wa="6281335700084;6281330066919;628123170863;6281254693810;6281331637497;085232777499" data-company="//www.ciptajayalestari.com" data-member="2">
                   <div id="wa">
                     <div class="phone-domain">
                       <div style="padding: 6px 10px">
@@ -119,8 +121,6 @@
                 </div>
               <div class="clearfix"></div>
             </div>
-          </div>
-        </div>
       </div>
     </div>
     <!-- Bootstrap core JS-->
