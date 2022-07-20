@@ -73,42 +73,42 @@
                       <div style="padding: 6px 10px">
                         <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                         <a target="_blank" href="https://api.whatsapp.com/send?phone=6281335700084&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px">
-                        <span class="hidden-md-down" style="color: #FFF;">081335700084</span><span class="hidden-lg-up">Chat</span></a>
+                        <span class="hidden-md-down" style="color: #FFF;">081335700084</span></a>
                       </div>
                     </div>
                     <div class="phone-domain">
                       <div style="padding: 6px 10px">
                         <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                         <a target="_blank" href="https://api.whatsapp.com/send?phone=6281330066919&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px">
-                        <span class="hidden-md-down" style="color: #FFF">081330066919</span><span class="hidden-lg-up">Chat</span></a>
+                        <span class="hidden-md-down" style="color: #FFF">081330066919</span></a>
                       </div>
                     </div>
                     <div class="phone-domain">
                       <div style="padding: 6px 10px">
                         <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                         <a target="_blank" href="https://api.whatsapp.com/send?phone=628123170863&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px">
-                        <span class="hidden-md-down" style="color: #FFF">08123170863</span><span class="hidden-lg-up">Chat</span></a>  
+                        <span class="hidden-md-down" style="color: #FFF">08123170863</span></a>  
                       </div>
                     </div>
                     <div class="phone-domain">
                       <div style="padding: 6px 10px">
                         <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                         <a target="_blank" href="https://api.whatsapp.com/send?phone=6281254693810&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px">
-                        <span class="hidden-md-down" style="color: #FFF">081254693810</span><span class="hidden-lg-up">Chat</span></a>
+                        <span class="hidden-md-down" style="color: #FFF">081254693810</span></a>
                       </div>
                     </div>
                     <div class="phone-domain">
                       <div style="padding: 6px 10px">
                         <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                         <a target="_blank" href="https://api.whatsapp.com/send?phone=6281331637497&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px">
-                        <span class="hidden-md-down" style="color: #FFF">081331637497</span><span class="hidden-lg-up">Chat</span></a>
+                        <span class="hidden-md-down" style="color: #FFF">081331637497</span></a>
                       </div>
                     </div>
                     <div class="phone-domain">
                       <div style="padding: 6px 10px">
                         <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                         <a target="_blank" href="https://api.whatsapp.com/send?phone=085232777499&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px">
-                        <span class="hidden-md-down" style="color: #FFF">085232777499</span><span class="hidden-lg-up">Chat</span></a>
+                        <span class="hidden-md-down" style="color: #FFF">085232777499</span></a>
                       </div>
                     </div>
                   </div>
