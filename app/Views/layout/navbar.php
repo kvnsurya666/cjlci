@@ -15,10 +15,10 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Katalog</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="/pages/mesin">Mesin</a></li>
-                  <li><a class="dropdown-item" href="/pages/oli">Oli</a></li>
-                  <li><a class="dropdown-item" href="/pages/aksesoris">Aksesoris</a></li>
-                  <li><a class="dropdown-item" href="/pages/jasa">Jasa</a></li>
+                  <li><a class="dropdown-item" href="/mesin">Mesin</a></li>
+                  <li><a class="dropdown-item" href="/oli">Oli</a></li>
+                  <li><a class="dropdown-item" href="/aksesoris">Aksesoris</a></li>
+                  <li><a class="dropdown-item" href="/jasa">Jasa</a></li>
                 </ul>
               </li>
               <li class="nav-item">
