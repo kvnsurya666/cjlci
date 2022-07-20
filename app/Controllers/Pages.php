@@ -10,7 +10,7 @@ class Pages extends BaseController
 			'title' => 'CIPTA JAYA LESTARI'
 		];
 
-       return view('pages/home', $data);
+       return view('pages/index', $data);
     }
 
     public function tentangkami()
@@ -19,7 +19,7 @@ class Pages extends BaseController
 			'title' => 'Tentang Kami'
 		];
 
-       echo view('pages/tentangkami', $data);
+       return view('pages/tentangkami', $data);
     }
 
     public function mesin()
@@ -28,7 +28,7 @@ class Pages extends BaseController
 			'title' => 'Katalog Mesin'
 		];
 
-       echo view('pages/mesin', $data);
+       return view('pages/mesin', $data);
     }
 
     public function oli()
