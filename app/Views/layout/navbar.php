@@ -22,7 +22,7 @@
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="/pages/tentangkami">Tentang Kami</a>
+                <a class="nav-link" href="/tentangkami">Tentang Kami</a>
               </li>
             </ul>
           </div>
