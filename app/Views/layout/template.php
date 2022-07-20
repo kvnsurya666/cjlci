@@ -68,7 +68,7 @@
                 </div>
               </div>
             </div>
-          </div>
+          
           <!-- WhatsApp -->
                 <div class="col-md-4 sign-gd-two emailprofile cta-footer text-center footer-right" id="wa_company" data-wa="6281335700084;6281330066919;628123170863;6281254693810;6281331637497;085232777499" data-company="//www.ciptajayalestari.com" data-member="2">
                   <div id="wa">
@@ -117,9 +117,9 @@
                   </div>
                 </div>
               <div class="clearfix"></div>
-            </div>
+          </div>
+        </div>
       </div>
-    </div>
     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
