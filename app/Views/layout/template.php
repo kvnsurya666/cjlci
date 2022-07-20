@@ -48,7 +48,10 @@
                     </div>
                     <div class="address-right">
                       <h6>Layanan Pelanggan</h6>
-                      <p>031 - 389 6920</p>
+                      <div class="phone-domain">
+                      <a href="tel:0313896920" class="nobor">0313896920</a>
+                    </div>
+                    </div>
                     </div>
                     <div class="clearfix"></div>
                   </div>
