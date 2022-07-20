@@ -3,7 +3,7 @@
         <div class="row">
           <div class="col-md-1">
             <a class="navbar-brand" href="#" style="padding-top: 10px; padding-bottom: 10px">
-              <img src="<?= base_url('/public/img/logo ciptajayalestari.PNG'); ?>" alt="" width="100" height="50" />
+              <img src="/img/logo ciptajayalestari.PNG" alt="" width="100" height="50" />
             </a>
           </div>
 

@@ -28,7 +28,7 @@
 <section class="showcase">
       <div class="container-fluid p-0">
         <div class="row g-0">
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="<?= base_url('/public/img/machine.jpg'); ?>"></div>
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('/img/machine.jpg')"></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
             <h3>Machinery</h3>
             <p>Ingin cari macam - macam mesin?</p>
@@ -38,7 +38,7 @@
           </div>
         </div>
         <div class="row g-0">
-          <div class="col-lg-6 text-white showcase-img" style="background-image: url('public/img/oli.jpg')"></div>
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url('/img/oli.jpg')"></div>
           <div class="col-lg-6 my-auto showcase-text">
             <h3>Oil</h3>
             <p>Ingin cari macam - macam oli?</p>
@@ -48,7 +48,7 @@
           </div>
         </div>
         <div class="row g-0">
-          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('public/img/aksesoris.jpg')"></div>
+          <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('/img/aksesoris.jpg')"></div>
           <div class="col-lg-6 order-lg-1 my-auto showcase-text">
             <h3>Accesories</h3>
             <p>Ingin cari macam - macam aksesoris?</p>
@@ -58,7 +58,7 @@
           </div>
         </div>
         <div class="row g-0">
-          <div class="col-lg-6 text-white showcase-img" style="background-image: url('public/img/jasa.jpg')"></div>
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url('/img/jasa.jpg')"></div>
           <div class="col-lg-6 my-auto showcase-text">
             <h3>Jasa</h3>
             <p>Ingin cari jasa instalasi dan perbaikan mesin bubut?</p>
