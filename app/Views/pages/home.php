@@ -38,7 +38,7 @@
           </div>
         </div>
         <div class="row g-0">
-          <div class="col-lg-6 text-white showcase-img" style="background-image: url('/img/oli.jpg')"></div>
+          <div class="col-lg-6 text-white showcase-img" style="background-image: url('/img/mesinjahit.jpg')"></div>
           <div class="col-lg-6 my-auto showcase-text">
             <h3>Oil</h3>
             <p>Ingin cari macam - macam oli?</p>
