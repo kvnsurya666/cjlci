@@ -37,7 +37,7 @@ class Pages extends BaseController
 			'title' => 'Katalog Oli'
 		];
 
-       echo view('pages/oli', $data);
+       return view('pages/oli', $data);
     }
 
     public function aksesoris()
@@ -46,7 +46,7 @@ class Pages extends BaseController
 			'title' => 'Katalog Aksesoris'
 		];
 
-       echo view('pages/aksesoris', $data);
+       return view('pages/aksesoris', $data);
     }
 
     public function jasa()
@@ -55,6 +55,6 @@ class Pages extends BaseController
 			'title' => 'Katalog Jasa'
 		];
 
-       echo view('pages/jasa', $data);
+       return view('pages/jasa', $data);
     }
 }

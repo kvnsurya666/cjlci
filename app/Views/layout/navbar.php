@@ -15,14 +15,14 @@
               <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Katalog</a>
                 <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="<?= base_url('/pages/mesin'); ?>">Mesin</a></li>
-                  <li><a class="dropdown-item" href="<?= base_url('/pages/oli'); ?>">Oli</a></li>
-                  <li><a class="dropdown-item" href="<?= base_url('/pages/aksesoris'); ?>">Aksesoris</a></li>
-                  <li><a class="dropdown-item" href="<?= base_url('/pages/jasa'); ?>">Jasa</a></li>
+                  <li><a class="dropdown-item" href="/pages/mesin">Mesin</a></li>
+                  <li><a class="dropdown-item" href="/pages/oli">Oli</a></li>
+                  <li><a class="dropdown-item" href="/pages/aksesoris">Aksesoris</a></li>
+                  <li><a class="dropdown-item" href="/pages/jasa">Jasa</a></li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="<?= base_url('/pages/tentangkami'); ?>">Tentang Kami</a>
+                <a class="nav-link" href="/pages/tentangkami">Tentang Kami</a>
               </li>
             </ul>
           </div>
