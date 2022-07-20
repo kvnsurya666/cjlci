@@ -40,7 +40,7 @@
           <div class="col-md-9 footer-right">
             <div class="sign-grds">
               <div class="col-md-5 sign-gd-one">
-                <h4>Hubungi <span>Kami</span></h4>
+                <h4>Hubungi <span>Kami</span> </h4>
                 <div class="address">
                   <div class="address-grid">
                     <div class="address-left" style="color: black; margin-left: 2px">
@@ -64,31 +64,60 @@
                   </div>
                 </div>
               </div>
-              <!-- <div class="col-md-7 sign-gd-two">
-                <h4>Sales <span>Kami</span></h4>
-                <div class="address">
-                  <div class="address-grid">
-                    <div class="address-left" style="color: white; margin-left: 2px">
-                      <i class="fa fa-whatsapp" aria-hidden="true"></i>
+              <!-- WhatsApp -->
+              <div class="col-md-5 emailprofile cta-footer text-center" id="wa_company" data-wa="6281335700084;6281330066919;628123170863;6281254693810;6281331637497;085232777499" data-company="//www.ciptajayalestari.com" data-member="2">
+                  <div id="wa">
+                    <div class="phone-domain">
+                      <div style="padding: 6px 10px">
+                        <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span
+                        ><a target="_blank" href="https://api.whatsapp.com/send?phone=6281335700084&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px"
+                          ><span class="hidden-md-down" style="color: #25d366">Chat Now</span><span class="hidden-lg-up">Chat</span></a
+                        >
+                      </div>
                     </div>
-                    <div class="address-right">
-                      <h6>Layanan Pelanggan</h6>
-                      <p>031 - 389 6920</p>
+                    <div class="phone-domain">
+                      <div style="padding: 6px 10px">
+                        <img src="https://assets.indonetwork.co.id/images/bevada/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span
+                        ><a target="_blank" href="https://api.whatsapp.com/send?phone=6281330066919&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px"
+                          ><span class="hidden-md-down" style="color: #25d366">Chat Now</span><span class="hidden-lg-up">Chat</span></a
+                        >
+                      </div>
                     </div>
-                    <div class="clearfix"></div>
-                  </div>
-                  <div class="address-grid">
-                    <div class="address-left">
-                      <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <div class="phone-domain">
+                      <div style="padding: 6px 10px">
+                        <img src="https://assets.indonetwork.co.id/images/bevada/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span
+                        ><a target="_blank" href="https://api.whatsapp.com/send?phone=628123170863&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px"
+                          ><span class="hidden-md-down" style="color: #25d366">Chat Now</span><span class="hidden-lg-up">Chat</span></a
+                        >
+                      </div>
                     </div>
-                    <div class="address-right">
-                      <h6>E-mail</h6>
-                      <p><a href="mailto:ciptajayalestari@gmail.com" style="color: white">ciptajayalestari@gmail.com</a></p>
+                    <div class="phone-domain">
+                      <div style="padding: 6px 10px">
+                        <img src="https://assets.indonetwork.co.id/images/bevada/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span
+                        ><a target="_blank" href="https://api.whatsapp.com/send?phone=6281254693810&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px"
+                          ><span class="hidden-md-down" style="color: #25d366">Chat Now</span><span class="hidden-lg-up">Chat</span></a
+                        >
+                      </div>
                     </div>
-                    <div class="clearfix"></div>
+                    <div class="phone-domain">
+                      <div style="padding: 6px 10px">
+                        <img src="https://assets.indonetwork.co.id/images/bevada/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span
+                        ><a target="_blank" href="https://api.whatsapp.com/send?phone=6281331637497&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px"
+                          ><span class="hidden-md-down" style="color: #25d366">Chat Now</span><span class="hidden-lg-up">Chat</span></a
+                        >
+                      </div>
+                    </div>
+                    <div class="phone-domain">
+                      <div style="padding: 6px 10px">
+                        <img src="https://assets.indonetwork.co.id/images/bevada/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span
+                        ><a target="_blank" href="https://api.whatsapp.com/send?phone=085232777499&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px"
+                          ><span class="hidden-md-down" style="color: #25d366">Chat Now</span><span class="hidden-lg-up">Chat</span></a
+                        >
+                      </div>
+                    </div>
                   </div>
                 </div>
-              </div> -->
+
               <div class="clearfix"></div>
             </div>
           </div>
