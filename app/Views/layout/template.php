@@ -43,10 +43,8 @@
                 <h4>Hubungi <span>Kami</span> </h4>
                 <div class="address">
                   <div class="address-grid">
-                    <div class="address-left" style="color: black; margin-left: 2px">
-                      <i class="fa fa-whatsapp" aria-hidden="true"></i>
-                    </div>
                     <div class="address-right">
+                      <i class="fa fa-whatsapp" aria-hidden="true"></i>
                       <h6>Layanan Pelanggan</h6>
                       <div class="phone-domain">
                       <a href="tel:0313896920" class="nobor">0313896920</a>
@@ -56,10 +54,8 @@
                     <div class="clearfix"></div>
                   </div>
                   <div class="address-grid">
-                    <div class="address-left">
-                      <i class="fa fa-envelope" aria-hidden="true"></i>
-                    </div>
                     <div class="address-right">
+                      <i class="fa fa-envelope" aria-hidden="true"></i>
                       <h6>E-mail</h6>
                       <p><a href="mailto:ciptajayalestari@gmail.com" style="color: white">ciptajayalestari@gmail.com</a></p>
                     </div>
