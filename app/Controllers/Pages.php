@@ -10,7 +10,7 @@ class Pages extends BaseController
 			'title' => 'CIPTA JAYA LESTARI'
 		];
 
-       return view('pages/index', $data);
+       return view('pages/home', $data);
     }
 
     public function tentangkami()
