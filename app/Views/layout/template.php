@@ -65,7 +65,7 @@
                 </div>
               </div>
               <!-- WhatsApp -->
-              <div class="col-md-5 emailprofile cta-footer text-center" id="wa_company" data-wa="6281335700084;6281330066919;628123170863;6281254693810;6281331637497;085232777499" data-company="//www.ciptajayalestari.com" data-member="2">
+              <div class="col-md-5 sign-gd-two emailprofile cta-footer text-center" id="wa_company" data-wa="6281335700084;6281330066919;628123170863;6281254693810;6281331637497;085232777499" data-company="//www.ciptajayalestari.com" data-member="2">
                   <div id="wa">
                     <div class="phone-domain">
                       <div style="padding: 6px 10px">
@@ -77,7 +77,7 @@
                     </div>
                     <div class="phone-domain">
                       <div style="padding: 6px 10px">
-                        <img src="https://assets.indonetwork.co.id/images/bevada/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span
+                        <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span
                         ><a target="_blank" href="https://api.whatsapp.com/send?phone=6281330066919&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px"
                           ><span class="hidden-md-down" style="color: #25d366">Chat Now</span><span class="hidden-lg-up">Chat</span></a
                         >
@@ -85,7 +85,7 @@
                     </div>
                     <div class="phone-domain">
                       <div style="padding: 6px 10px">
-                        <img src="https://assets.indonetwork.co.id/images/bevada/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span
+                        <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span
                         ><a target="_blank" href="https://api.whatsapp.com/send?phone=628123170863&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px"
                           ><span class="hidden-md-down" style="color: #25d366">Chat Now</span><span class="hidden-lg-up">Chat</span></a
                         >
@@ -93,7 +93,7 @@
                     </div>
                     <div class="phone-domain">
                       <div style="padding: 6px 10px">
-                        <img src="https://assets.indonetwork.co.id/images/bevada/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span
+                        <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span
                         ><a target="_blank" href="https://api.whatsapp.com/send?phone=6281254693810&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px"
                           ><span class="hidden-md-down" style="color: #25d366">Chat Now</span><span class="hidden-lg-up">Chat</span></a
                         >
@@ -101,7 +101,7 @@
                     </div>
                     <div class="phone-domain">
                       <div style="padding: 6px 10px">
-                        <img src="https://assets.indonetwork.co.id/images/bevada/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span
+                        <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span
                         ><a target="_blank" href="https://api.whatsapp.com/send?phone=6281331637497&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px"
                           ><span class="hidden-md-down" style="color: #25d366">Chat Now</span><span class="hidden-lg-up">Chat</span></a
                         >
@@ -109,7 +109,7 @@
                     </div>
                     <div class="phone-domain">
                       <div style="padding: 6px 10px">
-                        <img src="https://assets.indonetwork.co.id/images/bevada/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span
+                        <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span
                         ><a target="_blank" href="https://api.whatsapp.com/send?phone=085232777499&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px"
                           ><span class="hidden-md-down" style="color: #25d366">Chat Now</span><span class="hidden-lg-up">Chat</span></a
                         >
@@ -117,12 +117,10 @@
                     </div>
                   </div>
                 </div>
-
               <div class="clearfix"></div>
             </div>
           </div>
         </div>
-        <div class="clearfix"></div>
       </div>
     </div>
     <!-- Bootstrap core JS-->
