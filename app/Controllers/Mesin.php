@@ -10,6 +10,6 @@ class Mesin extends BaseController
 			'title' => 'CIPTA JAYA LESTARI'
 		];
 
-       return view('mesin/home', $data);
+       return view('mesin/mesin', $data);
     }
 }
