@@ -70,7 +70,7 @@
               <div class="phone-domain">
                 <div style="padding: 6px 10px">
                   <p><b>Sales Counter</b></p>
-                  <img src="/assets/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                  <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                   <a target="_blank" href="https://api.whatsapp.com/send?phone=6281335700084&amp;text=Halo Sales Counter, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
                     <span class="hidden-md-down" style="color: #fff">081335700084</span></a>
                 </div>
@@ -78,7 +78,7 @@
               <div class="phone-domain">
                 <div style="padding: 6px 10px">
                   <p><b>Pak Edi</b></p>
-                  <img src="/assets/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                  <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                   <a target="_blank" href="https://api.whatsapp.com/send?phone=628123170863&amp;text=Halo Pak Edi, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
                     <span class="hidden-md-down" style="color: #fff">08123170863</span></a>
                 </div>
@@ -86,7 +86,7 @@
               <div class="phone-domain">
                 <div style="padding: 6px 10px">
                   <p><b>Pak Ilyas</b></p>
-                  <img src="/assets/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                  <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                   <a target="_blank" href="https://api.whatsapp.com/send?phone=6281254693810&amp;text=Halo Pak Ilyas, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
                     <span class="hidden-md-down" style="color: #fff">081254693810</span></a>
                 </div>
@@ -94,7 +94,7 @@
               <div class="phone-domain">
                 <div style="padding: 6px 10px">
                   <p><b>Pak Rochman</b></p>
-                  <img src="/assets/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                  <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                   <a target="_blank" href="https://api.whatsapp.com/send?phone=6281331637497&amp;text=Halo Pak Rochman, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
                     <span class="hidden-md-down" style="color: #fff">081331637497</span></a>
                 </div>
@@ -102,7 +102,7 @@
               <div class="phone-domain">
                 <div style="padding: 6px 10px">
                   <p><b>Pak Dwiono</b></p>
-                  <img src="/assets/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                  <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
                   <a target="_blank" href="https://api.whatsapp.com/send?phone=6285232777499&amp;text=Halo Pak Dwiono, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
                     <span class="hidden-md-down" style="color: #fff">085232777499</span></a>
                 </div>
