@@ -10,7 +10,7 @@ include "koneksi.php";
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Login Cipta Jaya Lestari</title>
+  <title><?= $title; ?></title>
 
   <!-- Custom fonts for this template-->
   <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
