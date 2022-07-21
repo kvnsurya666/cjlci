@@ -35,83 +35,81 @@
                 <img src="/img/logo ciptajayalestari.PNG" style="margin-top: -10px" width="100px" />
               </a>
             </h2>
-            <p><b>Metal working and machinery</b></p>
+            <h4><b>Metal working and machinery</b></h4>
           </div>
           <div class="col-md-4 footer-center">
             <div class="sign-grds">
               <div class="col-md-5 sign-gd-one">
-                <h4>Hubungi <span>Kami</span> </h4>
+                <h4>Hubungi <span>Kami</span></h4>
                 <div class="address">
                   <div class="address-grid">
                     <div class="address-right">
-                      <i class="fa fa-whatsapp" aria-hidden="true"></i>
                       <h6>Layanan Pelanggan</h6>
+                      <i class="fa fa-whatsapp" aria-hidden="true"></i>
                       <div class="phone-domain">
-                      <a href="tel:0313896920" class="nobor">0313896920</a>
+                        <a href="tel:0313896920" class="nobor">0313896920</a>
+                      </div>
                     </div>
-                    </div>
-                    </div>
-                    <div class="clearfix"></div>
                   </div>
-                  <div class="address-grid">
-                    <div class="address-right">
-                      <i class="fa fa-envelope" aria-hidden="true"></i>
-                      <h6>E-mail</h6>
-                      <p><a href="mailto:ciptajayalestari@gmail.com" style="color: white">ciptajayalestari@gmail.com</a></p>
-                    </div>
-                    <div class="clearfix"></div>
+                  <div class="clearfix"></div>
+                </div>
+                <div class="address-grid">
+                  <div class="address-right">
+                    <h6>E-mail</h6>
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <p><a href="mailto:ciptajayalestari@gmail.com" style="color: white">ciptajayalestari@gmail.com</a></p>
                   </div>
+                  <div class="clearfix"></div>
                 </div>
               </div>
             </div>
-          
-          <!-- WhatsApp -->
-                <div class="col-md-4 sign-gd-two emailprofile cta-footer text-center footer-right" id="wa_company" data-wa="6281335700084;6281330066919;628123170863;6281254693810;6281331637497;085232777499" data-company="//www.ciptajayalestari.com" data-member="2">
-                  <div id="wa">
-                    <div class="phone-domain">
-                      <div style="padding: 6px 10px">
-                        <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
-                        <a target="_blank" href="https://api.whatsapp.com/send?phone=6281335700084&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px">
-                        <span class="hidden-md-down" style="color: #FFF;">081335700084</span></a>
-                      </div>
-                    </div>
-                    <div class="phone-domain">
-                      <div style="padding: 6px 10px">
-                        <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
-                        <a target="_blank" href="https://api.whatsapp.com/send?phone=6281330066919&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px">
-                        <span class="hidden-md-down" style="color: #FFF">081330066919</span></a>
-                      </div>
-                    </div>
-                    <div class="phone-domain">
-                      <div style="padding: 6px 10px">
-                        <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
-                        <a target="_blank" href="https://api.whatsapp.com/send?phone=628123170863&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px">
-                        <span class="hidden-md-down" style="color: #FFF">08123170863</span></a>  
-                      </div>
-                    </div>
-                    <div class="phone-domain">
-                      <div style="padding: 6px 10px">
-                        <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
-                        <a target="_blank" href="https://api.whatsapp.com/send?phone=6281254693810&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px">
-                        <span class="hidden-md-down" style="color: #FFF">081254693810</span></a>
-                      </div>
-                    </div>
-                    <div class="phone-domain">
-                      <div style="padding: 6px 10px">
-                        <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
-                        <a target="_blank" href="https://api.whatsapp.com/send?phone=6281331637497&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px">
-                        <span class="hidden-md-down" style="color: #FFF">081331637497</span></a>
-                      </div>
-                    </div>
-                    <div class="phone-domain">
-                      <div style="padding: 6px 10px">
-                        <img src="/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
-                        <a target="_blank" href="https://api.whatsapp.com/send?phone=085232777499&amp;text=Hello%2C%20Kami%20Dapat%20No%20Anda%20Dari%20ciptajayalestari.com" class="nobor" style="font-size: 18px">
-                        <span class="hidden-md-down" style="color: #FFF">085232777499</span></a>
-                      </div>
-                    </div>
-                  </div>
+          </div>
+          <div class="col-md-4">             
+          <div class="sign-gd-two emailprofile cta-footer text-center footer-right" id="wa_company" data-wa="6281335700084;6281330066919;628123170863;6281254693810;6281331637497;085232777499" data-company="//www.ciptajayalestari.com" data-member="2">
+            <div id="wa">
+              <div class="phone-domain">
+                <div style="padding: 6px 10px">
+                  <p><b>Sales Counter</b></p>
+                  <img src="/assets/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                  <a target="_blank" href="https://api.whatsapp.com/send?phone=6281335700084&amp;text=Halo Sales Counter, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
+                    <span class="hidden-md-down" style="color: #fff">081335700084</span></a>
                 </div>
+              </div>
+              <div class="phone-domain">
+                <div style="padding: 6px 10px">
+                  <p><b>Pak Edi</b></p>
+                  <img src="/assets/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                  <a target="_blank" href="https://api.whatsapp.com/send?phone=628123170863&amp;text=Halo Pak Edi, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
+                    <span class="hidden-md-down" style="color: #fff">08123170863</span></a>
+                </div>
+              </div>
+              <div class="phone-domain">
+                <div style="padding: 6px 10px">
+                  <p><b>Pak Ilyas</b></p>
+                  <img src="/assets/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                  <a target="_blank" href="https://api.whatsapp.com/send?phone=6281254693810&amp;text=Halo Pak Ilyas, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
+                    <span class="hidden-md-down" style="color: #fff">081254693810</span></a>
+                </div>
+              </div>
+              <div class="phone-domain">
+                <div style="padding: 6px 10px">
+                  <p><b>Pak Rochman</b></p>
+                  <img src="/assets/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                  <a target="_blank" href="https://api.whatsapp.com/send?phone=6281331637497&amp;text=Halo Pak Rochman, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
+                    <span class="hidden-md-down" style="color: #fff">081331637497</span></a>
+                </div>
+              </div>
+              <div class="phone-domain">
+                <div style="padding: 6px 10px">
+                  <p><b>Pak Dwiono</b></p>
+                  <img src="/assets/img/whatsapp.png" alt="" style="margin-right: 5px; height: 30px; width: 30px" /><span class="" style="float: left; background-color: #25d366"></span>
+                  <a target="_blank" href="https://api.whatsapp.com/send?phone=6285232777499&amp;text=Halo Pak Dwiono, Saya dapat nomor dari www.ciptajayalestari.id" class="nobor" style="font-size: 18px">
+                    <span class="hidden-md-down" style="color: #fff">085232777499</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          </div>
               <div class="clearfix"></div>
           </div>
         </div>
