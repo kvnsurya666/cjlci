@@ -1,51 +1,87 @@
-<!DOCTYPE html>
 <html lang="en">
-
+<?php
+include "koneksi.php";
+?>
 <head>
-    <title>Login Page</title>
-    <link rel="shortcut icon" type="image/x-icon" href="<?= base_url('assets/admin/login/faviconcbm.ico') ?>">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="<?= base_url('assets/admin/css/bootstrap.min.css') ?>" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="<?= base_url('assets/admin/bootstrap-select-1.12.1/bootstrap-select.min.css') ?>">
-    <link href="<?= base_url('assets/admin/css/custom-admin.css') ?>" rel="stylesheet">
-    <link href='https://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
-    <script src="<?= base_url('assets/admin/js/jquery.min.js') ?>"></script>
-    <style>
-        body {
-            background-image: url('/assets/imgs/login-bg.png');
-            background-position: bottom right;
-            background-repeat: no-repeat;
-            background-color: #548fd0;
-        }
 
-        /* .avatar {
-                background-image:url('assets/img/nigga-david.jpg');
-                } */
-    </style>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Login Cipta Jaya Lestari</title>
+
+  <!-- Custom fonts for this template-->
+  <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+
+  <!-- Custom styles for this template-->
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/sb-admin-2.css" >
+  <link rel="stylesheet" href="/css/sb-admin-2.min.css">
+
 </head>
 
-<div class="container">
-    <div class="login-container">
-        <div id="output">
-            <?php
-            if ($this->session->flashdata('err_login')) {
-            ?>
-                <div class="alert alert-danger"><?= $this->session->flashdata('err_login') ?></div>
-            <?php
-            }
-            ?>
+<body class="bg-gradient-primary">
+
+  <div class="container">
+
+    <!-- Outer Row -->
+    <div class="row justify-content-center">
+
+      <div class="col-xl-10 col-lg-12 col-md-9">
+
+        <div class="card o-hidden border-0 shadow-lg my-5">
+          <div class="card-body p-0">
+            <!-- Nested Row within Card Body -->
+            <div class="row">
+              <div class="col-lg-6 d-none d-lg-block justify-content-center">
+                <img src="/assets/img/logo vertex.jpg" alt="Logo Cipta Jaya Lestari">
+              </div>
+              <div class="col-lg-6">
+                <div class="p-5">
+                  <div class="text-center">
+                    <h1 class="h4 text-gray-900 mb-4">Selamat Datang di Halaman Login Admin</h1>
+                  </div>
+
+                  
+                  
+                  <form action="cek_login.php" method="post">
+                    <div class="form-group">
+                      <input type="text" name="username" class="form-control form-control-user" id="exampleInputUsername" placeholder="Silahkan masukkan username">
+                    </div>
+                    <div class="form-group">
+                      <input type="password" name="password" class="form-control form-control-user" id="exampleInputPassword" placeholder="Password">
+                    </div>
+                    <input type="submit" name="login" class="btn btn-primary btn-user btn-block" value="Login">
+                  </form>
+                 
+                  
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="avatar"><img src="<?= base_url('assets/img/admin/logocbmbaru.png') ?>"></div>
-        <p class="text-center text-danger"><?= $this->session->flashdata('log_alert') ?></p>
-        <p class="text-center text-danger"><?= $this->session->flashdata('success') ?></p>
-        <div class="form-box">
-            <?= form_open() ?>
-            <input type="text" name="username" placeholder="username" required>
-            <input type="password" name="password" placeholder="password" required>
-            <button class="btn btn-info btn-block login" type="submit" name="login">Login</button>
-            <?= form_close() ?>
-            </form>
-        </div>
+
+      </div>
+
     </div>
-</div>
+
+  </div>
+
+  <!-- Bootstrap core JavaScript-->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Core plugin JavaScript-->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for all pages-->
+  <script src="js/sb-admin-2.min.js"></script>
+
+</body>
+
+</html>

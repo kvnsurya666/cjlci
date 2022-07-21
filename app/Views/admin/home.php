@@ -1,228 +1,198 @@
-<script src="<?= base_url('assets/admin/highcharts/highcharts.js') ?>"></script>
-<script src="<?= base_url('assets/admin/highcharts/data.js') ?>"></script>
-<script src="<?= base_url('assets/admin/highcharts/drilldown.js') ?>"></script>
-<h1><img src="<?= base_url('assets/img/admin/admin-home.png') ?>" class="header-img" style="margin-top:-3px;"> Home</h1>
-<hr>
-<div class="home-page">
-    <div class="row">
-        <div class="col-lg-12">
-            <ol class="breadcrumb">
-                <li class="active">
-                    <i class="fa fa-dashboard"></i> Dashboard - Statistics Overview
-                </li>
-            </ol>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-3 col-md-6">
-            <div class="panel panel-green">
-                <div class="panel-heading fast-view-panel">
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <i class="fa fa-envelope-o fa-5x"></i>
-                        </div>
-                        <div class="col-xs-9 text-right">
-                            <div class="huge"><?= 1 ?></div>
-                            <div>Produk Kids</div>
-                        </div>
-                    </div>
-                </div>
-                <a href="#">
-                    <div class="panel-footer">
-                        <span class="pull-left">View Details</span>
-                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                        <div class="clearfix"></div>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <div class="panel panel-yellow">
-                <div class="panel-heading fast-view-panel">
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <i class="fa fa-shopping-cart fa-5x"></i>
-                        </div>
-                        <div class="col-xs-9 text-right">
-                            <div class="huge"><?= 2 ?></div>
-                            <div>Produk Wanita</div>
-                        </div>
-                    </div>
-                </div>
-                <a href="#">
-                    <div class="panel-footer">
-                        <span class="pull-left">View Details</span>
-                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                        <div class="clearfix"></div>
-                    </div>
-                </a>
-            </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-            <div class="panel panel-red">
-                <div class="panel-heading fast-view-panel">
-                    <div class="row">
-                        <div class="col-xs-3">
-                            <i class="fa fa-sort-numeric-desc fa-5x"></i>
-                        </div>
-                        <div class="col-xs-9 text-right">
-                            <div class="huge"><?= 2 ?></div>
-                            <div>Produk Pria</div>
-                        </div>
-                    </div>
-                </div>
-                <a href="#">
-                    <div class="panel-footer">
-                        <span class="pull-left">View Details</span>
-                        <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
-                        <div class="clearfix"></div>
-                    </div>
-                </a>
-            </div>
-        </div>
-    </div>
-    <div class="row">
-        <div class="col-lg-4">
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h3 class="panel-title"><i class="fa fa-clock-o fa-fw"></i> Last Activity Log</h3>
-                </div>
-                <div class="panel-body">
-                    <div class="table-responsive">
-                        <table class="table table-bordered table-hover table-striped">
-                            <thead>
-                                <tr>
-                                    <th>User</th>
-                                    <th>Action</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <?php
-                                // if ($activity->result()) {
-                                //     foreach ($activity->result() as $action) {
-                                        ?>
-                                        <tr>
-                                            <td><i class="fa fa-user" aria-hidden="true"></i> <b><?= 'Lionel Messi' ?></b></td>
-                                            <td><?= 'Playing Money Heist' //$action->activity . ' on ' . date('d.m.Y / H.m.s', $action->time) ?></td>
-                                        </tr>
-                                        <?php
-                                //     }
-                                // } else {
-                                    ?>
-                                    <tr>
-                                        <td colspan="2">No history found!</td>
-                                    </tr>
-                                <?php //} ?>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div class="text-right">
-                        <a href="#">View All Activity <i class="fa fa-arrow-circle-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<script>
-    /*
-     * Chart for orders by referrer
-     */
-    $(function () {
-    Highcharts.chart('container-by-referrer', {
-    chart: {
-    type: 'column'
-    },
-            title: {
-            text: 'Orders comming from..'
-            },
-            subtitle: {
-            text: 'Most Orders By Referrer'
-            },
-            xAxis: {
-            type: 'category'
-            },
-            yAxis: {
-            title: {
-            text: 'Total max numbers'
-            }
+<?php
+session_start();
 
-            },
-            legend: {
-            enabled: false
-            },
-            plotOptions: {
-            series: {
-            borderWidth: 0,
-                    dataLabels: {
-                    enabled: true,
-                            format: '{y}'
-                    }
-            }
-            },
-            tooltip: {
-            headerFormat: '<span style="font-size:11px">{series.name}</span><br>',
-                    pointFormat: '<span style="color:{point.color}">{point.name}</span>: <b>{point.y}</b> of total<br/>'
-            },
-            series: [{
-            name: 'Referrer',
-                    colorByPoint: true,
-                    data: [
-<?php foreach ($byReferral as $referrer) { ?>
-                        
-                        name: '<?= $referrer['referrer'] ?>',
-                                y: <?= $referrer['num'] ?>,
-                                drilldown: '<?= $referrer['referrer'] ?>'
-                        
-<?php } ?>
-                    ]
-            }]
+if(!isset($_SESSION['access_token'])) {
+	header('Location: google-login.php');
+	exit();	
+}
+
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.1.9/jquery.datetimepicker.min.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.1.9/jquery.datetimepicker.min.js"></script>
+<style type="text/css">
+
+#form-container {
+	width: 400px;
+	margin: 100px auto;
+}
+
+input[type="text"] {
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	font-family: inherit;
+	font-size: inherit;
+	padding: 8px;
+	border-radius: 0px;
+	outline: none;
+	display: block;
+	margin: 0 0 20px 0;
+	width: 100%;
+	box-sizing: border-box;
+}
+
+select {
+	border: 1px solid rgba(0, 0, 0, 0.15);
+	font-family: inherit;
+	font-size: inherit;
+	padding: 8px;
+	border-radius: 2px;
+	display: block;
+	width: 100%;
+	box-sizing: border-box;
+	outline: none;
+	background: none;
+	margin: 0 0 20px 0;
+}
+
+.input-error {
+	border: 1px solid red !important;
+}
+
+#event-date {
+	display: none;
+}
+
+#create-event {
+	background: none;
+	width: 100%;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #2980b9;
+    padding: 8px;
+    background: none;
+    color: #2980b9;
+    cursor: pointer;
+}
+
+</style>
+</head>
+
+<body>
+
+<div id="form-container">
+	<input type="text" id="event-title" placeholder="Event Title" autocomplete="off" />
+	<select id="event-type"  autocomplete="off">
+		<option value="FIXED-TIME">Fixed Time Event</option>
+		<option value="ALL-DAY">All Day Event</option>
+	</select>
+	<input type="text" id="event-start-time" placeholder="Event Start Time" autocomplete="off" />
+	<input type="text" id="event-end-time" placeholder="Event End Time" autocomplete="off" />
+	<input type="text" id="event-date" placeholder="Event Date" autocomplete="off" />
+	<button id="create-event">Create Event</button>
+</div>
+
+<script>
+
+// Selected time should not be less than current time
+function AdjustMinTime(ct) {
+	var dtob = new Date(),
+  		current_date = dtob.getDate(),
+  		current_month = dtob.getMonth() + 1,
+  		current_year = dtob.getFullYear();
+  			
+	var full_date = current_year + '-' +
+					( current_month < 10 ? '0' + current_month : current_month ) + '-' + 
+		  			( current_date < 10 ? '0' + current_date : current_date );
+
+	if(ct.dateFormat('Y-m-d') == full_date)
+		this.setOptions({ minTime: 0 });
+	else 
+		this.setOptions({ minTime: false });
+}
+
+// DateTimePicker plugin : http://xdsoft.net/jqplugins/datetimepicker/
+$("#event-start-time, #event-end-time").datetimepicker({ format: 'Y-m-d H:i', minDate: 0, minTime: 0, step: 5, onShow: AdjustMinTime, onSelectDate: AdjustMinTime });
+$("#event-date").datetimepicker({ format: 'Y-m-d', timepicker: false, minDate: 0 });
+
+$("#event-type").on('change', function(e) {
+	if($(this).val() == 'ALL-DAY') {
+		$("#event-date").show();
+		$("#event-start-time, #event-end-time").hide();
+	}
+	else {
+		$("#event-date").hide(); 
+		$("#event-start-time, #event-end-time").show();
+	}
+});
+
+// Send an ajax request to create event
+$("#create-event").on('click', function(e) {
+	if($("#create-event").attr('data-in-progress') == 1)
+		return;
+
+	var blank_reg_exp = /^([\s]{0,}[^\s]{1,}[\s]{0,}){1,}$/,
+		error = 0,
+		parameters;
+
+	$(".input-error").removeClass('input-error');
+
+	if(!blank_reg_exp.test($("#event-title").val())) {
+		$("#event-title").addClass('input-error');
+		error = 1;
+	}
+
+	if($("#event-type").val() == 'FIXED-TIME') {
+		if(!blank_reg_exp.test($("#event-start-time").val())) {
+			$("#event-start-time").addClass('input-error');
+			error = 1;
+		}		
+
+		if(!blank_reg_exp.test($("#event-end-time").val())) {
+			$("#event-end-time").addClass('input-error');
+			error = 1;
+		}
+	}
+	else if($("#event-type").val() == 'ALL-DAY') {
+		if(!blank_reg_exp.test($("#event-date").val())) {
+			$("#event-date").addClass('input-error');
+			error = 1;
+		}	
+	}
+
+	if(error == 1)
+		return false;
+
+	if($("#event-type").val() == 'FIXED-TIME') {
+		// If end time is earlier than start time, then interchange them
+		if($("#event-end-time").datetimepicker('getValue') < $("#event-start-time").datetimepicker('getValue')) {
+			var temp = $("#event-end-time").val();
+			$("#event-end-time").val($("#event-start-time").val());
+			$("#event-start-time").val(temp);
+		}
+	}
+
+	// Event details
+	parameters = { 	title: $("#event-title").val(), 
+					event_time: {
+						start_time: $("#event-type").val() == 'FIXED-TIME' ? $("#event-start-time").val().replace(' ', 'T') + ':00' : null,
+						end_time: $("#event-type").val() == 'FIXED-TIME' ? $("#event-end-time").val().replace(' ', 'T') + ':00' : null,
+						event_date: $("#event-type").val() == 'ALL-DAY' ? $("#event-date").val() : null
+					},
+					all_day: $("#event-type").val() == 'ALL-DAY' ? 1 : 0,
+				};
+
+	$("#create-event").attr('disabled', 'disabled');
+	$.ajax({
+        type: 'POST',
+        url: 'ajax.php',
+        data: { event_details: parameters },
+        dataType: 'json',
+        success: function(response) {
+        	$("#create-event").removeAttr('disabled');
+        	alert('Event created with ID : ' + response.event_id);
+        },
+        error: function(response) {
+            $("#create-event").removeAttr('disabled');
+            alert(response.responseJSON.message);
+        }
     });
-    });
-    /*
-     * Chart for orders by mount/year 
-     */
-    $(function () {
-    Highcharts.chart('container-by-month', {
-    title: {
-    text: 'Monthly Orders',
-            x: - 20
-    },
-            subtitle: {
-            text: 'Source: Orders table',
-                    x: - 20
-            },
-            xAxis: {
-            categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun',
-                    'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
-            },
-            yAxis: {
-            title: {
-            text: 'Orders'
-            },
-                    plotLines: [{
-                    value: 0,
-                            width: 1,
-                            color: '#808080'
-                    }]
-            },
-            tooltip: {
-            valueSuffix: ' Orders'
-            },
-            legend: {
-            layout: 'vertical',
-                    align: 'right',
-                    verticalAlign: 'middle',
-                    borderWidth: 0
-            },
-            series: [
-<?php foreach ($ordersByMonth['years'] as $year) { ?>
-              
-                name: '<?= $year ?>',
-                        data: [<?= implode(',', $ordersByMonth['orders'][$year]) ?>]
-                
-<?php } ?>
-            ]
-    });
-    });
+});
+
 </script>
+
+</body>
+</html>
