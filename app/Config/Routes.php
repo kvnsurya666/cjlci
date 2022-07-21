@@ -39,7 +39,7 @@ $routes->get('/', 'Pages::index');
 $routes->get('/users', 'Admin\Users::index');
 $routes->get('/login', 'Admin\Login::index');
 $routes->get('/tentangkami', 'Pages::tentangkami');
-$routes->get('/mesin', 'Mesin::index');
+$routes->get('/mesin', 'Pages::mesin');
 $routes->get('/oli', 'Pages::oli');
 $routes->get('/aksesoris', 'Pages::aksesoris');
 $routes->get('/jasa', 'Pages::jasa');
