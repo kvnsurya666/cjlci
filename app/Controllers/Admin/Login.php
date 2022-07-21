@@ -12,6 +12,6 @@ class Login extends BaseController
 			'title' => 'Login Cipta Jaya Lestari'
 		];
 
-       return view('login/home', $data);
+       return view('login/login', $data);
     }
 }
